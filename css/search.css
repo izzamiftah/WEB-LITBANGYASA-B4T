@@ -1,0 +1,22 @@
+body{
+  background-color: #21abb5;
+  margin: 100px;
+}
+label{
+  padding: 200px; /*Untuk ukuran kotak label agar terlihat besar atau luas*/
+  background-color: #22b524;/*Membuat warna background menjadi hijau*/
+  font-size: 36px;/*Ukuran huruf semakin besar*/
+  color: #fff;/*warna huruf putih*/
+  font-weight: 900;/*mempertebal huruf*/
+  cursor: pointer;/*membuat pointer*/
+  margin-right: -5px;/*membuat label dan input menyatu atau tidak ada jarak*/
+}
+
+label:hover{
+  color: #fff; /*mengubah warna tombol search jika kursor di arahkan ke tombol tersebut*/
+  background-color: #3a963b;/*hover ini jika kita mengarahkan kursor kelabel akan berubah warna hijau tua*/
+}
+
+input{
+  padding: 200px;  /*Untuk ukuran kotak search agar terlihat besar atau luas*/
+  font-size: 36px; /*Uku
